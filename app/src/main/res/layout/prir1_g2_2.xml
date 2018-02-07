@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="25dp"
+        android:text="Яка тварина так звучить?"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar62"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:max="160"
+        android:progress="70" />
+
+    <ImageView
+        android:id="@+id/imageView226"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView97"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:onClick="playChicken_prir1_g2"
+        app:srcCompat="@drawable/sound_green" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView226"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Прослухати"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView228"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="no_prir1_g2"
+            android:padding="5dp"
+            app:srcCompat="@drawable/duck" />
+
+        <ImageView
+            android:id="@+id/imageView227"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="no_prir1_g2"
+            android:padding="5dp"
+            app:srcCompat="@drawable/sheep" />
+
+        <ImageView
+            android:id="@+id/imageView229"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="go_prir1_g2_3"
+            android:padding="5dp"
+            app:srcCompat="@drawable/rooster" />
+
+        <ImageView
+            android:id="@+id/imageView230"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="no_prir1_g2"
+            android:padding="5dp"
+            app:srcCompat="@drawable/cow" />
+    </LinearLayout>
+</RelativeLayout>

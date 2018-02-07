@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="25dp"
+        android:text="Добери частину машини по кольору"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar37"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:max="410"
+        android:progress="370" />
+
+    <ImageView
+        android:id="@+id/imageView159"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView9"
+        android:paddingBottom="100dp"
+        app:srcCompat="@drawable/game9_car2" />
+
+    <LinearLayout
+        android:id="@+id/lin4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView161"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="no_sens1_g9"
+            android:padding="5dp"
+            app:srcCompat="@drawable/game9_answer5" />
+
+        <ImageView
+            android:id="@+id/imageView162"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="no_sens1_g9"
+            android:padding="5dp"
+            app:srcCompat="@drawable/game9_answer6" />
+
+        <ImageView
+            android:id="@+id/imageView163"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="go_sens1_g9_s"
+            android:padding="5dp"
+            app:srcCompat="@drawable/game9_answer7" />
+
+        <ImageView
+            android:id="@+id/imageView164"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="no_sens1_g9"
+            android:padding="5dp"
+            app:srcCompat="@drawable/game9_answer8" />
+    </LinearLayout>
+</RelativeLayout>

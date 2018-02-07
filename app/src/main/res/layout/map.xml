@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7C36F"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:onClick="go_sens1_map"
+        app:srcCompat="@drawable/sens1" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/imageView4"
+        android:onClick="go_navk1_map"
+        app:srcCompat="@drawable/prir1" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:onClick="go_prir1_map"
+        app:srcCompat="@drawable/navk1" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/imageView6"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:onClick="go_rozv1_map"
+        app:srcCompat="@drawable/movl2" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:onClick="go_math2_map"
+        app:srcCompat="@drawable/math1" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView8"
+        android:layout_margin="5dp"
+        android:onClick="go_rozv2_map"
+        app:srcCompat="@drawable/movl1" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView9"
+        android:layout_margin="5dp"
+        android:onClick="go_prir2_map"
+        app:srcCompat="@drawable/prir2" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:layout_toStartOf="@+id/imageView8"
+        android:onClick="go_navk2_map"
+        app:srcCompat="@drawable/navk2" />
+</RelativeLayout>

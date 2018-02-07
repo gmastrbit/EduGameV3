@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView189"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:text="Знайомство з кольорами"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView191"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Натисніть на колір, щоб почути, як він вимовляється."
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView410"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="50dp"
+            android:onClick="dod1_g1_playRed"
+            app:srcCompat="@drawable/red" />
+
+        <TextView
+            android:id="@+id/textView190"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Червоний"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView433"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="50dp"
+            android:onClick="dod1_g1_playOrange"
+            app:srcCompat="@drawable/orange" />
+
+        <TextView
+            android:id="@+id/textView197"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Оранжевий"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView414"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="50dp"
+            android:onClick="dod1_g1_playYellow"
+            app:srcCompat="@drawable/yellow" />
+
+        <TextView
+            android:id="@+id/textView194"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Жовтий"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView412"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="50dp"
+            android:onClick="dod1_g1_playGreen"
+            app:srcCompat="@drawable/green" />
+
+        <TextView
+            android:id="@+id/textView192"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Зелений"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView434"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="50dp"
+            android:onClick="dod1_g1_playCyan"
+            app:srcCompat="@drawable/cyan" />
+
+        <TextView
+            android:id="@+id/textView198"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Блакитний"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView413"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="50dp"
+            android:onClick="dod1_g1_playBlue"
+            app:srcCompat="@drawable/blue" />
+
+        <TextView
+            android:id="@+id/textView193"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Синій"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView435"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="50dp"
+            android:onClick="dod1_g1_playPurple"
+            app:srcCompat="@drawable/purple" />
+
+        <TextView
+            android:id="@+id/textView199"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:text="Фіолетовий"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

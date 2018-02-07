@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="25dp"
+        android:text="Чого в будинку не вистачає?"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar36"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:max="410"
+        android:progress="360" />
+
+    <ImageView
+        android:id="@+id/imageView155"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView8"
+        android:paddingBottom="125dp"
+        app:srcCompat="@drawable/game9_home2" />
+
+    <LinearLayout
+        android:id="@+id/lin3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/imageView155"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView156"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="no_sens1_g9"
+            android:padding="5dp"
+            app:srcCompat="@drawable/game9_answer10" />
+
+        <ImageView
+            android:id="@+id/imageView157"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="no_sens1_g9"
+            android:padding="5dp"
+            app:srcCompat="@drawable/game9_answer11" />
+
+        <ImageView
+            android:id="@+id/imageView160"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="go_sens1_g9_4"
+            android:padding="5dp"
+            app:srcCompat="@drawable/game9_answer1" />
+
+        <ImageView
+            android:id="@+id/imageView158"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="no_sens1_g9"
+            android:padding="5dp"
+            app:srcCompat="@drawable/game9_answer9" />
+
+    </LinearLayout>
+</RelativeLayout>

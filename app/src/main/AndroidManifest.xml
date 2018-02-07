@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.hwork.edugamev3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MapActivity" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".sens1_g1" />
+        <activity android:name=".HeroActivity" />
+        <activity android:name=".sens1_g2" />
+        <activity android:name=".ErrorActivity" />
+        <activity android:name=".sens1_g3" />
+        <activity android:name=".sens1_g4" />
+        <activity android:name=".sens1_g5" />
+        <activity android:name=".sens1_g6" />
+        <activity android:name=".sens1_g7" />
+        <activity android:name=".sens1_g8" />
+        <activity android:name=".sens1_g9" />
+        <activity android:name=".sens1_g10" />
+        <activity android:name=".navk1_g1" />
+        <activity android:name=".navk1_g2" />
+        <activity android:name=".navk1_g3" />
+        <activity android:name=".navk1_g4" />
+        <activity android:name=".navk1_g5" />
+        <activity android:name=".prir1_g1" />
+        <activity android:name=".prir1_g2" />
+        <activity android:name=".prir1_g3" />
+        <activity android:name=".prir1_g4" />
+        <activity android:name=".rozv1_g1" />
+        <activity android:name=".rozv1_g2" />
+        <activity android:name=".rozv1_g3" />
+        <activity android:name=".math2_g1" />
+        <activity android:name=".math2_g2" />
+        <activity android:name=".math2_g3" />
+        <activity android:name=".math2_g4" />
+        <activity android:name=".math2_g5" />
+        <activity android:name=".math2_g6" />
+        <activity android:name=".math2_g7" />
+        <activity android:name=".math2_g8" />
+        <activity android:name=".rozv2_g1" />
+        <activity android:name=".rozv2_g2" />
+        <activity android:name=".rozv2_g3" />
+        <activity android:name=".navk2_g1" />
+        <activity android:name=".navk2_g2" />
+        <activity android:name=".navk2_g3" />
+        <activity android:name=".prir2_g1" />
+        <activity android:name=".prir2_g2" />
+        <activity android:name=".prir2_g3" />
+        <activity android:name=".dod1_g1" />
+        <activity android:name=".ErrorThreeActivity" />
+        <activity android:name=".dod1_g2"></activity>
+    </application>
+
+</manifest>
