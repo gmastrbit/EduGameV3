@@ -39,17 +39,11 @@
             android:id="@+id/textView26"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
             android:onClick="toInfo"
             android:padding="10dp"
-            android:text="v3.0.40.46.156"
+            android:text="v3.0.43.49.159"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp" />
-        <TextView
-            android:id="@+id/textView42"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=" "
-            android:textColor="#fff"
-            android:textSize="26sp" />
     </LinearLayout>
 </ScrollView>
