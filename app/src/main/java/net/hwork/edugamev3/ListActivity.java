@@ -137,6 +137,8 @@ public class ListActivity extends AppCompatActivity {
         button41.setTypeface(typeFace);
         Button button43 = (Button) findViewById(R.id.button43);
         button43.setTypeface(typeFace);
+        Button button44 = (Button) findViewById(R.id.button179);
+        button44.setTypeface(typeFace);
     }
 
     public void showSnackList(View view) {
@@ -432,6 +434,20 @@ public class ListActivity extends AppCompatActivity {
     public void go_dod1_g2_list(View view){
         // перехід на 41 гру з анімацією:
         Intent questionIntent = new Intent(ListActivity.this, dod1_g2.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
+    }
+
+    public void go_dod1_g3_list(View view){
+        // перехід на 42 гру з анімацією:
+        Intent questionIntent = new Intent(ListActivity.this, dod1_g3.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
+    }
+
+    public void go_dod1_g4_list(View view){
+        // перехід на 43 гру з анімацією:
+        Intent questionIntent = new Intent(ListActivity.this, dod1_g4.class);
         startActivityForResult(questionIntent, 1);
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }

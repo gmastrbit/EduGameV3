@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView203"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingTop="25dp"
+            android:text="Знайомство з нотами"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView203"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="60dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView440"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="dod1_g3_playDo"
+                    android:paddingRight="-50dp"
+                    app:srcCompat="@drawable/red" />
+
+                <ImageView
+                    android:id="@+id/imageView441"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="dod1_g3_playRe"
+                    android:paddingLeft="-50dp"
+                    app:srcCompat="@drawable/orange" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView443"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="dod1_g3_playMi"
+                    app:srcCompat="@drawable/yellow" />
+
+                <ImageView
+                    android:id="@+id/imageView442"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="dod1_g3_playFa"
+                    app:srcCompat="@drawable/green" />
+
+                <ImageView
+                    android:id="@+id/imageView444"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="dod1_g3_playSol"
+                    app:srcCompat="@drawable/cyan" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView445"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="dod1_g3_playLa"
+                    android:paddingRight="-50dp"
+                    app:srcCompat="@drawable/blue" />
+
+                <ImageView
+                    android:id="@+id/imageView446"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="dod1_g3_playSi"
+                    android:paddingLeft="-50dp"
+                    app:srcCompat="@drawable/purple" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView204"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:paddingBottom="25dp"
+            android:text="Назва ноти"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

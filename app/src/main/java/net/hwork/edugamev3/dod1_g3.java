@@ -18,16 +18,16 @@ import android.widget.Toast;
 
 import java.io.IOException;
 
-public class dod1_g2 extends AppCompatActivity {
+public class dod1_g3 extends AppCompatActivity {
 
     private SoundPool mSoundPool;
     private AssetManager mAssetManager;
-    private int mStreamID, mOne, mTwo, mThree, mFour, mFive, mSix, mSeven, mEight, mNine, mNull;
+    private int mStreamID, mDo, mRe, mMi, mFa, mSol, mLa, mSi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.dod1_g2);
+        setContentView(R.layout.dod1_g3);
         // скриває верхній бар:
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         // скриває тайтлбар:
@@ -36,40 +36,10 @@ public class dod1_g2 extends AppCompatActivity {
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         // шрифт:
         Typeface typeFace = Typeface.createFromAsset(getAssets(), "comic.ttf");
-        TextView textView11 = (TextView) findViewById(R.id.textView200);
+        TextView textView11 = (TextView) findViewById(R.id.textView203);
         textView11.setTypeface(typeFace);
-        TextView textView0 = (TextView) findViewById(R.id.textView201);
+        TextView textView0 = (TextView) findViewById(R.id.textView204);
         textView0.setTypeface(typeFace);
-        TextView textView1 = (TextView) findViewById(R.id.textView205);
-        textView1.setTypeface(typeFace);
-        TextView textView2 = (TextView) findViewById(R.id.textView207);
-        textView2.setTypeface(typeFace);
-        TextView textView3 = (TextView) findViewById(R.id.textView209);
-        textView3.setTypeface(typeFace);
-        TextView textView4 = (TextView) findViewById(R.id.textView211);
-        textView4.setTypeface(typeFace);
-        TextView textView41 = (TextView) findViewById(R.id.textView213);
-        textView41.setTypeface(typeFace);
-        TextView textView42 = (TextView) findViewById(R.id.textView215);
-        textView42.setTypeface(typeFace);
-        TextView textView43 = (TextView) findViewById(R.id.textView217);
-        textView43.setTypeface(typeFace);
-        TextView textView44 = (TextView) findViewById(R.id.textView218);
-        textView44.setTypeface(typeFace);
-        TextView textView45 = (TextView) findViewById(R.id.textView221);
-        textView45.setTypeface(typeFace);
-        TextView textView46 = (TextView) findViewById(R.id.textView223);
-        textView46.setTypeface(typeFace);
-
-        // звуки:
-        if (android.os.Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-            // Для пристроїв до Android 5
-            createOldSoundPool();
-        } else {
-            // Для нових пристроїв
-            createNewSoundPool();
-        }
-        // звуки;
     }
 
     // звуки:
@@ -114,16 +84,13 @@ public class dod1_g2 extends AppCompatActivity {
             createNewSoundPool();
         }
         mAssetManager = getAssets();
-        mOne = loadSound("one.mp3");
-        mTwo = loadSound("two.mp3");
-        mThree = loadSound("three.mp3");
-        mFour = loadSound("four.mp3");
-        mFive = loadSound("five.mp3");
-        mSix = loadSound("six.mp3");
-        mSeven = loadSound("seven.mp3");
-        mEight = loadSound("eight.mp3");
-        mNine = loadSound("nine.mp3");
-        mNull = loadSound("null.mp3");
+        mDo = loadSound("do.mp3");
+        mRe = loadSound("re.mp3");
+        mMi = loadSound("mi.mp3");
+        mFa = loadSound("fa.mp3");
+        mSol = loadSound("sol.mp3");
+        mLa = loadSound("la.mp3");
+        mSi = loadSound("si.mp3");
     }
     @Override
     protected void onPause() {
@@ -133,53 +100,54 @@ public class dod1_g2 extends AppCompatActivity {
     }
     // звуки;
 
-    public void dod1_g2_playOne(View view){
+    public void dod1_g3_playDo(View view){
         // звук:
-        playSound(mOne);
+        playSound(mDo);
+        TextView textView = findViewById(R.id.textView204);
+        textView.setText("До");
     }
 
-    public void dod1_g2_playTwo(View view){
+    public void dod1_g3_playRe(View view){
         // звук:
-        playSound(mTwo);
+        playSound(mRe);
+        TextView textView = findViewById(R.id.textView204);
+        textView.setText("Ре");
     }
 
-    public void dod1_g2_playThree(View view){
+    public void dod1_g3_playMi(View view){
         // звук:
-        playSound(mThree);
+        playSound(mMi);
+        TextView textView = findViewById(R.id.textView204);
+        textView.setText("Мі");
     }
 
-    public void dod1_g2_playFour(View view){
+    public void dod1_g3_playFa(View view){
         // звук:
-        playSound(mFour);
+        playSound(mFa);
+        TextView textView = findViewById(R.id.textView204);
+        textView.setText("Фа");
     }
 
-    public void dod1_g2_playFive(View view){
+    public void dod1_g3_playSol(View view){
         // звук:
-        playSound(mFive);
+        playSound(mSol);
+        TextView textView = findViewById(R.id.textView204);
+        textView.setText("Соль");
     }
 
-    public void dod1_g2_playSix(View view){
+    public void dod1_g3_playLa(View view){
         // звук:
-        playSound(mSix);
+        playSound(mLa);
+        TextView textView = findViewById(R.id.textView204);
+        textView.setText("Ля");
     }
 
-    public void dod1_g2_playSeven(View view){
+    public void dod1_g3_playSi(View view){
         // звук:
-        playSound(mSeven);
+        playSound(mSi);
+        TextView textView = findViewById(R.id.textView204);
+        textView.setText("Сі");
     }
 
-    public void dod1_g2_playEight(View view){
-        // звук:
-        playSound(mEight);
-    }
 
-    public void dod1_g2_playNine(View view){
-        // звук:
-        playSound(mNine);
-    }
-
-    public void dod1_g2_playNull(View view){
-        // звук:
-        playSound(mNull);
-    }
 }

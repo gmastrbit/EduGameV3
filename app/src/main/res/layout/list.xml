@@ -7,16 +7,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingTop="25dp"
-            android:text="Перелік ігр"
+            android:text="Перелік ігор"
             android:textAlignment="center"
             android:textColor="#000"
             android:textSize="24sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imageView19"
@@ -853,13 +854,32 @@
             android:layout_marginRight="15dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/teal_game"
-            android:enabled="false"
+            android:onClick="go_dod1_g3_list"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
-            android:text="Гра 42 - Знайомство з алфавітом"
+            android:text="Гра 42 - Знайомство з нотами"
             android:textAlignment="viewStart"
             android:textAllCaps="false"
             android:textSize="17sp" />
+
+
+        <Button
+            android:id="@+id/button179"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/teal_game"
+            android:onClick="go_dod1_g4_list"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Гра 43 - Знайомство з тваринами"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
         <TextView
             android:id="@+id/textView24"
             android:layout_width="match_parent"
