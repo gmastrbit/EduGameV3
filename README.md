@@ -4,4 +4,4 @@
 
 Дипломний проект
 
-Остання версія версія apk-файлу: http://edugame.hwork.net/43.apk
+Остання версія версія apk-файлу: http://edugame.hwork.net/44.apk
