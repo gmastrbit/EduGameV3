@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rel1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView453"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:onClick="dod1_g5_s_no_1"
+        app:srcCompat="@drawable/game_lug" />
+
+    <ImageView
+        android:id="@+id/imageView456"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/imageView454"
+        android:layout_alignStart="@+id/imageView454"
+        android:layout_marginLeft="-100dp"
+        android:onClick="dod1_g5_s11"
+        app:srcCompat="@drawable/game44_flower" />
+
+    <ImageView
+        android:id="@+id/imageView454"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:onClick="dod1_g5_s12"
+        app:srcCompat="@drawable/game44_flower" />
+
+    <ImageView
+        android:id="@+id/imageView455"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/imageView454"
+        android:layout_alignStart="@+id/imageView454"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginLeft="100dp"
+        android:onClick="dod1_g5_s13"
+        app:srcCompat="@drawable/game44_flower" />
+
+    <ImageView
+        android:id="@+id/imageView457"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/imageView456"
+        android:layout_alignStart="@+id/imageView454"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="dod1_g5_s14"
+        app:srcCompat="@drawable/game44_flower" />
+
+    <ImageView
+        android:id="@+id/imageView458"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/imageView454"
+        android:layout_alignStart="@+id/imageView454"
+        android:layout_marginBottom="95dp"
+        android:layout_marginLeft="-80dp"
+        android:onClick="dod1_g5_s15"
+        app:srcCompat="@drawable/game44_flower" />
+</RelativeLayout>

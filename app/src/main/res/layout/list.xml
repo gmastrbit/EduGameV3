@@ -862,7 +862,6 @@
             android:textAllCaps="false"
             android:textSize="17sp" />
 
-
         <Button
             android:id="@+id/button179"
             android:layout_width="match_parent"
@@ -880,12 +879,23 @@
             android:textAllCaps="false"
             android:textSize="17sp" />
 
-        <TextView
-            android:id="@+id/textView24"
+
+        <Button
+            android:id="@+id/button180"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" "
-            android:textColor="#fff"
-            android:textSize="26sp" />
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/teal_game"
+            android:onClick="go_dod1_g5_list"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Гра 44 - Перевір уважність"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
     </LinearLayout>
 </ScrollView>

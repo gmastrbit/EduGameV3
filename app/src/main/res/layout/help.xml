@@ -42,7 +42,7 @@
             android:layout_marginBottom="25dp"
             android:onClick="toInfo"
             android:padding="10dp"
-            android:text="v3.0.43.49.159"
+            android:text="v3.0.44.50.164"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp" />
     </LinearLayout>

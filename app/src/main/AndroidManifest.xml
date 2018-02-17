@@ -64,7 +64,8 @@
         <activity android:name=".ErrorThreeActivity" />
         <activity android:name=".dod1_g2" />
         <activity android:name=".dod1_g3" />
-        <activity android:name=".dod1_g4"></activity>
+        <activity android:name=".dod1_g4" />
+        <activity android:name=".dod1_g5"></activity>
     </application>
 
 </manifest>
