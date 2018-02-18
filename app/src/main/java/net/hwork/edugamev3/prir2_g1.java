@@ -212,4 +212,5 @@ public class prir2_g1 extends AppCompatActivity {
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
         finish();
     }
+
 }

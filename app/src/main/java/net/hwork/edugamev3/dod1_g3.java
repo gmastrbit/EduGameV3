@@ -149,5 +149,9 @@ public class dod1_g3 extends AppCompatActivity {
         textView.setText("Сі");
     }
 
-
+    @Override
+    public void onStop(){
+        super.onStop();
+        finish();
+    }
 }

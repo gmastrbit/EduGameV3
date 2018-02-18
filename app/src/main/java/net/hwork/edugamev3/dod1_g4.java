@@ -123,4 +123,10 @@ public class dod1_g4 extends AppCompatActivity {
         // звук:
         playSound(mRooster);
     }
+
+    @Override
+    public void onStop(){
+        super.onStop();
+        finish();
+    }
 }

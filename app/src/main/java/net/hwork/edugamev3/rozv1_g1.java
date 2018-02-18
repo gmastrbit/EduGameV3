@@ -213,4 +213,5 @@ public class rozv1_g1 extends AppCompatActivity {
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
         finish();
     }
+
 }

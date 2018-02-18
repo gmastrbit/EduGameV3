@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class HelpActivity extends AppCompatActivity {
@@ -34,6 +35,8 @@ public class HelpActivity extends AppCompatActivity {
         textView1.setTypeface(typeFace);
         TextView textView2 = (TextView) findViewById(R.id.textView26);
         textView2.setTypeface(typeFace);
+        Button button = (Button) findViewById(R.id.button182);
+        button.setTypeface(typeFace);
     }
 
     public void showSnackHelp(View view) {
@@ -48,6 +51,18 @@ public class HelpActivity extends AppCompatActivity {
 
     public void toInfo(View view){
         // перехід на мій сайт:
-        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://hwork.net/")));
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://hwork.net/")));
+    }
+
+    public void toUser(View view){
+        Intent questionIntent = new Intent(HelpActivity.this, UserActivity.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
+    }
+
+    @Override
+    public void onStop(){
+        super.onStop();
+        finish();
     }
 }

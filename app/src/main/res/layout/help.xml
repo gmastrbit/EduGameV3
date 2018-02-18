@@ -35,6 +35,17 @@
             android:textColor="#000"
             android:textSize="20sp" />
 
+        <Button
+            android:id="@+id/button182"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/yellow_game"
+            android:onClick="toUser"
+            android:text="Налаштування імені"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
         <TextView
             android:id="@+id/textView26"
             android:layout_width="match_parent"

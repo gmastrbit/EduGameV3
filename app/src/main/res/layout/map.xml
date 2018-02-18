@@ -22,7 +22,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_margin="5dp"
-        android:onClick="go_sens1_map"
+        android:clickable="false"
+        android:longClickable="true"
         app:srcCompat="@drawable/sens1" />
 
     <ImageView
@@ -32,7 +33,8 @@
         android:layout_alignTop="@+id/imageView4"
         android:layout_marginLeft="5dp"
         android:layout_toEndOf="@+id/imageView4"
-        android:onClick="go_navk1_map"
+        android:clickable="false"
+        android:longClickable="true"
         app:srcCompat="@drawable/prir1" />
 
     <ImageView
@@ -42,7 +44,8 @@
         android:layout_above="@+id/imageView4"
         android:layout_alignParentStart="true"
         android:layout_margin="5dp"
-        android:onClick="go_prir1_map"
+        android:clickable="false"
+        android:longClickable="true"
         app:srcCompat="@drawable/navk1" />
 
     <ImageView
@@ -52,7 +55,8 @@
         android:layout_above="@+id/imageView6"
         android:layout_alignParentStart="true"
         android:layout_margin="5dp"
-        android:onClick="go_rozv1_map"
+        android:clickable="false"
+        android:longClickable="true"
         app:srcCompat="@drawable/movl2" />
 
     <ImageView
@@ -62,7 +66,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_margin="5dp"
-        android:onClick="go_math2_map"
+        android:clickable="false"
+        android:longClickable="true"
         app:srcCompat="@drawable/math1" />
 
     <ImageView
@@ -72,7 +77,8 @@
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/imageView8"
         android:layout_margin="5dp"
-        android:onClick="go_rozv2_map"
+        android:clickable="false"
+        android:longClickable="true"
         app:srcCompat="@drawable/movl1" />
 
     <ImageView
@@ -82,7 +88,8 @@
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/imageView9"
         android:layout_margin="5dp"
-        android:onClick="go_prir2_map"
+        android:clickable="false"
+        android:longClickable="true"
         app:srcCompat="@drawable/prir2" />
 
     <ImageView
@@ -92,6 +99,8 @@
         android:layout_alignParentTop="true"
         android:layout_margin="5dp"
         android:layout_toStartOf="@+id/imageView8"
-        android:onClick="go_navk2_map"
+        android:clickable="false"
+        android:longClickable="true"
         app:srcCompat="@drawable/navk2" />
+
 </RelativeLayout>

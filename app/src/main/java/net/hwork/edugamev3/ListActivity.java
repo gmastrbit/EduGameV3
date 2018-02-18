@@ -144,7 +144,7 @@ public class ListActivity extends AppCompatActivity {
     }
 
     public void showSnackList(View view) {
-        mSnackbar = Snackbar.make(view, "Весь список ігр внизу", Snackbar.LENGTH_LONG)
+        mSnackbar = Snackbar.make(view, "Весь список ігор внизу", Snackbar.LENGTH_LONG)
                 .setAction("Action", null);
         View snackbarView = mSnackbar.getView();
         snackbarView.setBackgroundColor(Color.parseColor("#212121"));

@@ -137,21 +137,6 @@ public class dod1_g5 extends AppCompatActivity {
             textView21.setTypeface(typeFace);
             TextView textView22 = (TextView) findViewById(R.id.textView227);
             textView22.setTypeface(typeFace);
-        } else {
-
-        // підсвітка:
-        RelativeLayout mRelativeLayout;
-        mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-        mRelativeLayout.setBackgroundColor(Color.parseColor("#00C853"));
-
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                RelativeLayout mRelativeLayout;
-                mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-                mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
-            }
-        }, 250);
         }
     }
 
@@ -171,21 +156,6 @@ public class dod1_g5 extends AppCompatActivity {
             textView23.setTypeface(typeFace);
             TextView textView24 = (TextView) findViewById(R.id.textView227);
             textView24.setTypeface(typeFace);
-        } else {
-
-            // підсвітка:
-            RelativeLayout mRelativeLayout;
-            mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-            mRelativeLayout.setBackgroundColor(Color.parseColor("#00C853"));
-
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    RelativeLayout mRelativeLayout;
-                    mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-                    mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
-                }
-            }, 250);
         }
     }
 
@@ -205,21 +175,6 @@ public class dod1_g5 extends AppCompatActivity {
             textView25.setTypeface(typeFace);
             TextView textView26 = (TextView) findViewById(R.id.textView227);
             textView26.setTypeface(typeFace);
-        } else {
-
-            // підсвітка:
-            RelativeLayout mRelativeLayout;
-            mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-            mRelativeLayout.setBackgroundColor(Color.parseColor("#00C853"));
-
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    RelativeLayout mRelativeLayout;
-                    mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-                    mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
-                }
-            }, 250);
         }
     }
 
@@ -239,21 +194,6 @@ public class dod1_g5 extends AppCompatActivity {
             textView27.setTypeface(typeFace);
             TextView textView28 = (TextView) findViewById(R.id.textView227);
             textView28.setTypeface(typeFace);
-        } else {
-
-            // підсвітка:
-            RelativeLayout mRelativeLayout;
-            mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-            mRelativeLayout.setBackgroundColor(Color.parseColor("#00C853"));
-
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    RelativeLayout mRelativeLayout;
-                    mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-                    mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
-                }
-            }, 250);
         }
     }
 
@@ -273,23 +213,7 @@ public class dod1_g5 extends AppCompatActivity {
             textView29.setTypeface(typeFace);
             TextView textView30 = (TextView) findViewById(R.id.textView227);
             textView30.setTypeface(typeFace);
-        } else {
-
-            // підсвітка:
-            RelativeLayout mRelativeLayout;
-            mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-            mRelativeLayout.setBackgroundColor(Color.parseColor("#00C853"));
-
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    RelativeLayout mRelativeLayout;
-                    mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-                    mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
-                }
-            }, 250);
         }
-
     }
 
     public void dod1_g5_s_no_1(View view){
@@ -302,21 +226,22 @@ public class dod1_g5 extends AppCompatActivity {
             Intent questionIntent = new Intent(dod1_g5.this, ErrorActivity.class);
             startActivityForResult(questionIntent, 1);
             overridePendingTransition(R.anim.right_in, R.anim.left_out);
+        } else {
+
+            // підсвітка:
+            RelativeLayout mRelativeLayout;
+            mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
+            mRelativeLayout.setBackgroundColor(Color.parseColor("#D50000"));
+
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    RelativeLayout mRelativeLayout;
+                    mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
+                    mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
+                }
+            }, 250);
         }
-
-        // підсвітка:
-        RelativeLayout mRelativeLayout;
-        mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-        mRelativeLayout.setBackgroundColor(Color.parseColor("#D50000"));
-
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                RelativeLayout mRelativeLayout;
-                mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-                mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
-            }
-        }, 250);
     }
 
     public void dod1_g5_go_4(View view){
@@ -336,21 +261,6 @@ public class dod1_g5 extends AppCompatActivity {
             Typeface typeFace = Typeface.createFromAsset(getAssets(), "comic.ttf");
             TextView textView11 = (TextView) findViewById(R.id.textView228);
             textView11.setTypeface(typeFace);
-        } else {
-
-            // підсвітка:
-            RelativeLayout mRelativeLayout;
-            mRelativeLayout = (RelativeLayout) findViewById(R.id.rel2);
-            mRelativeLayout.setBackgroundColor(Color.parseColor("#00C853"));
-
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    RelativeLayout mRelativeLayout;
-                    mRelativeLayout = (RelativeLayout) findViewById(R.id.rel2);
-                    mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
-                }
-            }, 250);
         }
     }
 
@@ -367,21 +277,6 @@ public class dod1_g5 extends AppCompatActivity {
             Typeface typeFace = Typeface.createFromAsset(getAssets(), "comic.ttf");
             TextView textView12 = (TextView) findViewById(R.id.textView228);
             textView12.setTypeface(typeFace);
-        } else {
-
-            // підсвітка:
-            RelativeLayout mRelativeLayout;
-            mRelativeLayout = (RelativeLayout) findViewById(R.id.rel2);
-            mRelativeLayout.setBackgroundColor(Color.parseColor("#00C853"));
-
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    RelativeLayout mRelativeLayout;
-                    mRelativeLayout = (RelativeLayout) findViewById(R.id.rel2);
-                    mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
-                }
-            }, 250);
         }
     }
 
@@ -398,21 +293,6 @@ public class dod1_g5 extends AppCompatActivity {
             Typeface typeFace = Typeface.createFromAsset(getAssets(), "comic.ttf");
             TextView textView13 = (TextView) findViewById(R.id.textView228);
             textView13.setTypeface(typeFace);
-        } else {
-
-            // підсвітка:
-            RelativeLayout mRelativeLayout;
-            mRelativeLayout = (RelativeLayout) findViewById(R.id.rel2);
-            mRelativeLayout.setBackgroundColor(Color.parseColor("#00C853"));
-
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    RelativeLayout mRelativeLayout;
-                    mRelativeLayout = (RelativeLayout) findViewById(R.id.rel2);
-                    mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
-                }
-            }, 250);
         }
     }
 
@@ -429,21 +309,6 @@ public class dod1_g5 extends AppCompatActivity {
             Typeface typeFace = Typeface.createFromAsset(getAssets(), "comic.ttf");
             TextView textView14 = (TextView) findViewById(R.id.textView228);
             textView14.setTypeface(typeFace);
-        } else {
-
-            // підсвітка:
-            RelativeLayout mRelativeLayout;
-            mRelativeLayout = (RelativeLayout) findViewById(R.id.rel2);
-            mRelativeLayout.setBackgroundColor(Color.parseColor("#00C853"));
-
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    RelativeLayout mRelativeLayout;
-                    mRelativeLayout = (RelativeLayout) findViewById(R.id.rel2);
-                    mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
-                }
-            }, 250);
         }
     }
 
@@ -460,21 +325,6 @@ public class dod1_g5 extends AppCompatActivity {
             Typeface typeFace = Typeface.createFromAsset(getAssets(), "comic.ttf");
             TextView textView15 = (TextView) findViewById(R.id.textView228);
             textView15.setTypeface(typeFace);
-        } else {
-
-            // підсвітка:
-            RelativeLayout mRelativeLayout;
-            mRelativeLayout = (RelativeLayout) findViewById(R.id.rel2);
-            mRelativeLayout.setBackgroundColor(Color.parseColor("#00C853"));
-
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    RelativeLayout mRelativeLayout;
-                    mRelativeLayout = (RelativeLayout) findViewById(R.id.rel2);
-                    mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
-                }
-            }, 250);
         }
     }
 
@@ -513,4 +363,5 @@ public class dod1_g5 extends AppCompatActivity {
         overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
         finish();
     }
+
 }

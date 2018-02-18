@@ -259,4 +259,5 @@ public class rozv2_g3 extends AppCompatActivity {
         overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
         finish();
     }
+
 }

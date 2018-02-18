@@ -217,7 +217,4 @@ public class prir2_g3 extends AppCompatActivity {
         finish();
     }
 
-//    public void end(View view){
-//        Toast.makeText(prir2_g3.this, "Кінець!", Toast.LENGTH_SHORT).show();
-//    }
 }

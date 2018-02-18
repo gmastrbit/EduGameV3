@@ -182,4 +182,10 @@ public class dod1_g2 extends AppCompatActivity {
         // звук:
         playSound(mNull);
     }
+
+    @Override
+    public void onStop(){
+        super.onStop();
+        finish();
+    }
 }

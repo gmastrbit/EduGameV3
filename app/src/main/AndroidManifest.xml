@@ -8,7 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:versionCode="304450164"
+        android:versionName="3.0.44.50.164">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +22,6 @@
         <activity android:name=".ListActivity" />
         <activity android:name=".HelpActivity" />
         <activity android:name=".sens1_g1" />
-        <activity android:name=".HeroActivity" />
         <activity android:name=".sens1_g2" />
         <activity android:name=".ErrorActivity" />
         <activity android:name=".sens1_g3" />
@@ -65,7 +66,8 @@
         <activity android:name=".dod1_g2" />
         <activity android:name=".dod1_g3" />
         <activity android:name=".dod1_g4" />
-        <activity android:name=".dod1_g5"></activity>
+        <activity android:name=".dod1_g5" />
+        <activity android:name=".UserActivity"></activity>
     </application>
 
 </manifest>

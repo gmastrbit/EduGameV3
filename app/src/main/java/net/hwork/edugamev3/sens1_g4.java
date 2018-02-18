@@ -256,4 +256,5 @@ public class sens1_g4 extends AppCompatActivity {
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
         finish();
     }
+
 }

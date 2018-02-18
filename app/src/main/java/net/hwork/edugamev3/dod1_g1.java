@@ -154,4 +154,10 @@ public class dod1_g1 extends AppCompatActivity {
         // звук:
         playSound(mPurple);
     }
+
+    @Override
+    public void onStop(){
+        super.onStop();
+        finish();
+    }
 }
