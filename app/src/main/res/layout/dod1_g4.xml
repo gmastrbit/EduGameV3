@@ -104,5 +104,32 @@
             android:textAllCaps="false"
             android:textSize="17sp"
             android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView474"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:onClick="toMain_dod1_g4"
+                android:paddingLeft="-80dp"
+                app:srcCompat="@drawable/home" />
+
+            <ImageView
+                android:id="@+id/imageView475"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:onClick="to_dod1_g5"
+                android:paddingRight="-80dp"
+                app:srcCompat="@drawable/play" />
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

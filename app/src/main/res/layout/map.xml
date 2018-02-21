@@ -24,6 +24,7 @@
         android:layout_margin="5dp"
         android:clickable="false"
         android:longClickable="true"
+        android:visibility="visible"
         app:srcCompat="@drawable/sens1" />
 
     <ImageView
@@ -35,6 +36,7 @@
         android:layout_toEndOf="@+id/imageView4"
         android:clickable="false"
         android:longClickable="true"
+        android:visibility="visible"
         app:srcCompat="@drawable/prir1" />
 
     <ImageView
@@ -46,6 +48,7 @@
         android:layout_margin="5dp"
         android:clickable="false"
         android:longClickable="true"
+        android:visibility="visible"
         app:srcCompat="@drawable/navk1" />
 
     <ImageView
@@ -57,6 +60,7 @@
         android:layout_margin="5dp"
         android:clickable="false"
         android:longClickable="true"
+        android:visibility="visible"
         app:srcCompat="@drawable/movl2" />
 
     <ImageView
@@ -68,6 +72,7 @@
         android:layout_margin="5dp"
         android:clickable="false"
         android:longClickable="true"
+        android:visibility="visible"
         app:srcCompat="@drawable/math1" />
 
     <ImageView
@@ -79,6 +84,7 @@
         android:layout_margin="5dp"
         android:clickable="false"
         android:longClickable="true"
+        android:visibility="visible"
         app:srcCompat="@drawable/movl1" />
 
     <ImageView
@@ -90,6 +96,7 @@
         android:layout_margin="5dp"
         android:clickable="false"
         android:longClickable="true"
+        android:visibility="visible"
         app:srcCompat="@drawable/prir2" />
 
     <ImageView
@@ -101,6 +108,17 @@
         android:layout_toStartOf="@+id/imageView8"
         android:clickable="false"
         android:longClickable="true"
+        android:visibility="visible"
         app:srcCompat="@drawable/navk2" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:longClickable="true"
+        app:srcCompat="@drawable/dod1" />
 
 </RelativeLayout>

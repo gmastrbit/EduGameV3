@@ -1,6 +1,7 @@
 package net.hwork.edugamev3;
 
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.res.AssetFileDescriptor;
 import android.content.res.AssetManager;
@@ -122,6 +123,21 @@ public class dod1_g4 extends AppCompatActivity {
     public void dod1_g4_playRooster(View view){
         // звук:
         playSound(mRooster);
+    }
+
+    public void toMain_dod1_g4(View view){
+        // перехід на головну з анімацією:
+        Intent questionIntent = new Intent(dod1_g4.this, MainActivity.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
+    }
+
+    public void to_dod1_g5(View view){
+        // перехід на кольори
+        Intent questionIntent = new Intent(dod1_g4.this, dod1_g5.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
+        finish();
     }
 
     @Override

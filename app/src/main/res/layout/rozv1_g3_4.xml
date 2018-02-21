@@ -55,13 +55,13 @@
             app:srcCompat="@drawable/game23_answer3" />
 
         <ImageView
-            android:id="@+id/imageView279"
+            android:id="@+id/imageView281"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="no_rozv1_g3"
+            android:onClick="go_rozv1_g3_5"
             android:padding="5dp"
-            app:srcCompat="@drawable/game23_answer1" />
+            app:srcCompat="@drawable/game23_answer4" />
 
         <ImageView
             android:id="@+id/imageView280"
@@ -73,12 +73,13 @@
             app:srcCompat="@drawable/game23_answer2" />
 
         <ImageView
-            android:id="@+id/imageView281"
+            android:id="@+id/imageView279"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="go_rozv1_g3_5"
+            android:onClick="no_rozv1_g3"
             android:padding="5dp"
-            app:srcCompat="@drawable/game23_answer4" />
+            app:srcCompat="@drawable/game23_answer1" />
+
     </LinearLayout>
 </RelativeLayout>

@@ -36,6 +36,7 @@ public class MapActivity extends AppCompatActivity {
         ImageView go_rozv2 = (ImageView) findViewById(R.id.imageView9);
         ImageView go_prir2 = (ImageView) findViewById(R.id.imageView10);
         ImageView go_navk2 = (ImageView) findViewById(R.id.imageView11);
+        ImageView go_dod1 = (ImageView) findViewById(R.id.imageView18);
 
         // sens1:
         go_sens1.setOnClickListener(new View.OnClickListener() {
@@ -236,5 +237,30 @@ public class MapActivity extends AppCompatActivity {
             }
         });
         // navk2;
+
+        // dod1:
+        go_dod1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                // перехід на 1 гру розділу Додатково з анімацією
+                Intent questionIntent = new Intent(MapActivity.this, dod1_g1.class);
+                startActivityForResult(questionIntent, 1);
+                overridePendingTransition(R.anim.right_in, R.anim.left_out);
+            }
+        });
+
+        go_dod1.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                mSnackbar = Snackbar.make(view, "Додатково", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null);
+                View snackbarView = mSnackbar.getView();
+                snackbarView.setBackgroundColor(Color.parseColor("#212121"));
+                TextView snackTextView = (TextView) snackbarView.findViewById(android.support.design.R.id.snackbar_text);
+                snackTextView.setTextColor(Color.parseColor("#FFD600")); //  #FFEA00
+                mSnackbar.show();
+                return true;
+            }
+        });
+        // dod1;
     }
 }

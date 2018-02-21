@@ -857,7 +857,7 @@
             android:onClick="go_dod1_g3_list"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
-            android:text="Гра 42 - Знайомство з нотами"
+            android:text="Гра 42 - Перевір уважність"
             android:textAlignment="viewStart"
             android:textAllCaps="false"
             android:textSize="17sp" />
@@ -892,7 +892,7 @@
             android:onClick="go_dod1_g5_list"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
-            android:text="Гра 44 - Перевір уважність"
+            android:text="Гра 44 - Знайомство з нотами"
             android:textAlignment="viewStart"
             android:textAllCaps="false"
             android:textSize="17sp" />
