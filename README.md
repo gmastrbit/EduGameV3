@@ -1,6 +1,6 @@
 # EduGameV3 — Розвивайка
 
-![RoboHero](http://edugame.hwork.net/robo.png)
+![RoboHero](http://edugame.hwork.net/nrobo.png)
 
 Дипломний проект.
 
