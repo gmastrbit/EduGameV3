@@ -31,8 +31,8 @@
         android:id="@+id/imageView439"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:onClick="showSnackError"
         android:paddingBottom="30dp"
         app:srcCompat="@drawable/robo_cry" />

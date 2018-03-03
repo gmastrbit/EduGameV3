@@ -5,71 +5,83 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView143"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:paddingTop="25dp"
-        android:text="Знайди фігуру тієї ж форми"
-        android:textAlignment="center"
-        android:textColor="#000"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <ProgressBar
-        android:id="@+id/progressBar100"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:max="320"
-        android:progress="170" />
+        <ProgressBar
+            android:id="@+id/progressBar100"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:max="320"
+            android:progress="170" />
 
-    <ImageView
-        android:id="@+id/imageView319"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView143"
-        android:paddingBottom="100dp"
-        app:srcCompat="@drawable/tree_game27" />
+        <TextView
+            android:id="@+id/textView143"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingTop="9dp"
+            android:text="Знайди фігуру тієї ж форми"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView319"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView143"
+                android:paddingBottom="100dp"
+                app:srcCompat="@drawable/tree_game27" />
+        </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/lin3"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_alignBottom="@+id/imageView319"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/imageView322"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:padding="5dp"
-            android:onClick="no_math2_g5"
-            app:srcCompat="@drawable/game27_answer3" />
-
-        <ImageView
-            android:id="@+id/imageView321"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:padding="5dp"
-            android:onClick="go_math2_g5_4"
-            app:srcCompat="@drawable/game27_answer2" />
 
         <ImageView
             android:id="@+id/imageView320"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:padding="5dp"
             android:onClick="no_math2_g5"
+            android:padding="5dp"
             app:srcCompat="@drawable/game27_answer1" />
+
+        <ImageView
+            android:id="@+id/imageView321"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="go_math2_g5_4"
+            android:padding="5dp"
+            app:srcCompat="@drawable/game27_answer2" />
+
+        <ImageView
+            android:id="@+id/imageView322"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="no_math2_g5"
+            android:padding="5dp"
+            app:srcCompat="@drawable/game27_answer3" />
     </LinearLayout>
 </RelativeLayout>
