@@ -32,9 +32,8 @@
         android:id="@+id/imageView376"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_below="@+id/textView172"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="135dp"
+        android:layout_centerVertical="true"
         android:onClick="playBabusya_rozv2_g3"
         app:srcCompat="@drawable/sound_red" />
 
