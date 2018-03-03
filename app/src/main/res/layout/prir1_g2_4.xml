@@ -32,9 +32,8 @@
         android:id="@+id/imageView236"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_below="@+id/textView101"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="135dp"
+        android:layout_centerVertical="true"
         android:onClick="playSheep_prir1_g2"
         app:srcCompat="@drawable/sound_yellow" />
 
