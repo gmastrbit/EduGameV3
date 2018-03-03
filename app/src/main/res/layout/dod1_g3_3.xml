@@ -20,9 +20,8 @@
         android:id="@+id/imageView452"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView226"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
+        android:layout_centerVertical="true"
         app:srcCompat="@drawable/game44_leaf" />
 
     <TextView

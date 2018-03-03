@@ -21,9 +21,21 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/textView204"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:paddingTop="25dp"
+            android:text="Назва ноти"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="360dp"
+            android:layout_height="match_parent"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/textView203"
             android:layout_marginBottom="60dp"
@@ -35,6 +47,7 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
+                android:layout_weight="1"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal">
 
@@ -123,18 +136,6 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView204"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true"
-            android:paddingBottom="25dp"
-            android:text="Назва ноти"
-            android:textAlignment="center"
-            android:textColor="#000"
-            android:textSize="24sp"
-            android:textStyle="bold" />
     </LinearLayout>
 
 </RelativeLayout>
