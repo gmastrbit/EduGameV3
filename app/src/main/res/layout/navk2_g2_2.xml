@@ -5,68 +5,80 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView36"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:paddingTop="25dp"
-        android:text="Навіщо цей предмет?"
-        android:textAlignment="center"
-        android:textColor="#000"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <ProgressBar
-        android:id="@+id/progressBar133"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:max="110"
-        android:progress="50" />
+        <ProgressBar
+            android:id="@+id/progressBar133"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:max="110"
+            android:progress="50" />
 
-    <ImageView
-        android:id="@+id/imageView384"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView36"
-        android:paddingBottom="100dp"
-        app:srcCompat="@drawable/pilesos" />
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingTop="9dp"
+            android:text="Навіщо цей предмет?"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView384"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView36"
+                android:paddingBottom="100dp"
+                app:srcCompat="@drawable/pilesos" />
+        </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/lin2"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_alignBottom="@+id/imageView384"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:orientation="horizontal"
         android:padding="5dp">
 
         <Button
-            android:id="@+id/button154"
-            android:layout_width="500dp"
+            android:id="@+id/button155"
+            android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@drawable/pink_game"
-            android:text="Прибирати"
-            android:onClick="go_navk2_g2_s"
+            android:onClick="no_navk2_g2"
+            android:text="Вариити їсти"
             android:textAllCaps="false"
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button155"
-            android:layout_width="500dp"
+            android:id="@+id/button154"
+            android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@drawable/pink_game"
-            android:text="Вариити їсти"
-            android:onClick="no_navk2_g2"
+            android:onClick="go_navk2_g2_s"
+            android:text="Прибирати"
             android:textAllCaps="false"
             android:textSize="24sp" />
     </LinearLayout>
