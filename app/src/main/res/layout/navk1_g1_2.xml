@@ -61,18 +61,6 @@
         android:padding="5dp">
 
         <Button
-            android:id="@+id/button62"
-            android:layout_width="500dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:background="@drawable/pink_game"
-            android:onClick="no_navk1_g1"
-            android:text="Коридор"
-            android:textAllCaps="false"
-            android:textSize="24sp" />
-
-        <Button
             android:id="@+id/button63"
             android:layout_width="500dp"
             android:layout_height="80dp"
@@ -81,6 +69,18 @@
             android:background="@drawable/pink_game"
             android:onClick="go_navk1_g1_s"
             android:text="Спальня"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button62"
+            android:layout_width="500dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/pink_game"
+            android:onClick="no_navk1_g1"
+            android:text="Коридор"
             android:textAllCaps="false"
             android:textSize="24sp" />
     </LinearLayout>

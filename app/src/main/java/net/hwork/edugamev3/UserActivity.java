@@ -66,7 +66,6 @@ public class UserActivity extends AppCompatActivity {
             }
         });
 
-
         // значення ніку в EditText, якщо воно є
         SharedPreferences sp = getSharedPreferences(MY_SETTINGS, Context.MODE_PRIVATE);
         EditText userNameLogin = (EditText) findViewById(R.id.editText);
@@ -89,12 +88,22 @@ public class UserActivity extends AppCompatActivity {
         e.putString("userName", userName);
         e.commit();
 
-        mSnackbar = Snackbar.make(view, "Ім'я '"+ userName +"' збережено!", Snackbar.LENGTH_LONG)
-                .setAction("Action", null);
-        View snackbarView = mSnackbar.getView();
-        snackbarView.setBackgroundColor(Color.parseColor("#212121"));
-        TextView snackTextView = (TextView) snackbarView.findViewById(android.support.design.R.id.snackbar_text);
-        snackTextView.setTextColor(Color.parseColor("#FFD600")); //  #FFEA00
-        mSnackbar.show();
+        if (userName.isEmpty()){
+            mSnackbar = Snackbar.make(view, "Ім'я видалено!", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null);
+            View snackbarView = mSnackbar.getView();
+            snackbarView.setBackgroundColor(Color.parseColor("#212121"));
+            TextView snackTextView = (TextView) snackbarView.findViewById(android.support.design.R.id.snackbar_text);
+            snackTextView.setTextColor(Color.parseColor("#FFD600")); //  #FFEA00
+            mSnackbar.show();
+        } else {
+            mSnackbar = Snackbar.make(view, "Ім'я '"+ userName +"' збережено!", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null);
+            View snackbarView = mSnackbar.getView();
+            snackbarView.setBackgroundColor(Color.parseColor("#212121"));
+            TextView snackTextView = (TextView) snackbarView.findViewById(android.support.design.R.id.snackbar_text);
+            snackTextView.setTextColor(Color.parseColor("#FFD600")); //  #FFEA00
+            mSnackbar.show();
+        }
     }
 }

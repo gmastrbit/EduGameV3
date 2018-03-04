@@ -5,54 +5,66 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView58"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:paddingTop="25dp"
-        android:text="Чого не вистачає?"
-        android:textAlignment="center"
-        android:textColor="#000"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <ProgressBar
-        android:id="@+id/progressBar18"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:max="410"
-        android:progress="180" />
+        <ProgressBar
+            android:id="@+id/progressBar18"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:max="410"
+            android:progress="180" />
 
-    <ImageView
-        android:id="@+id/imageView99"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView58"
-        android:paddingBottom="100dp"
-        app:srcCompat="@drawable/game4_2" />
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingTop="9dp"
+            android:text="Чого не вистачає?"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView99"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView58"
+                android:paddingBottom="100dp"
+                app:srcCompat="@drawable/game4_2" />
+        </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/lin2"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_alignBottom="@+id/imageView99"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView103"
+            android:id="@+id/imageView100"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="no_sens1_g4"
+            android:onClick="go_sens1_g4_3"
             android:padding="5dp"
-            app:srcCompat="@drawable/tree" />
+            app:srcCompat="@drawable/star_answer" />
 
         <ImageView
             android:id="@+id/imageView101"
@@ -64,6 +76,15 @@
             app:srcCompat="@drawable/flower" />
 
         <ImageView
+            android:id="@+id/imageView103"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="no_sens1_g4"
+            android:padding="5dp"
+            app:srcCompat="@drawable/tree" />
+
+        <ImageView
             android:id="@+id/imageView102"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -71,15 +92,5 @@
             android:onClick="no_sens1_g4"
             android:padding="5dp"
             app:srcCompat="@drawable/yellow_pyramid_answer" />
-
-        <ImageView
-            android:id="@+id/imageView100"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="go_sens1_g4_3"
-            android:padding="5dp"
-            app:srcCompat="@drawable/star_answer" />
-
     </LinearLayout>
 </RelativeLayout>

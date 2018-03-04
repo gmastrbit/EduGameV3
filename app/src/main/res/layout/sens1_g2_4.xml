@@ -5,37 +5,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView47"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:paddingTop="25dp"
-        android:text="Чого не вистачає?"
-        android:textAlignment="center"
-        android:textColor="#000"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <ProgressBar
-        android:id="@+id/progressBar9"
-        style="?android:attr/progressBarStyleHorizontal"
+        <ProgressBar
+            android:id="@+id/progressBar9"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:max="410"
+            android:progress="90" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingTop="9dp"
+            android:text="Чого не вистачає?"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:max="410"
-        android:progress="90" />
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="60dp">
 
-    <ImageView
-        android:id="@+id/imageView57"
-        android:layout_width="wrap_content"
-        android:layout_height="425dp"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView47"
-        android:layout_marginTop="10dp"
-        app:srcCompat="@drawable/lug4" />
+        <ImageView
+            android:id="@+id/imageView57"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView47"
+            app:srcCompat="@drawable/lug4" />
+    </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/lin4"

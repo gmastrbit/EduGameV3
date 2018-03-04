@@ -226,21 +226,6 @@ public class dod1_g3 extends AppCompatActivity {
             Intent questionIntent = new Intent(dod1_g3.this, ErrorActivity.class);
             startActivityForResult(questionIntent, 1);
             overridePendingTransition(R.anim.right_in, R.anim.left_out);
-        } else {
-
-            // підсвітка:
-            RelativeLayout mRelativeLayout;
-            mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-            mRelativeLayout.setBackgroundColor(Color.parseColor("#D50000"));
-
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    RelativeLayout mRelativeLayout;
-                    mRelativeLayout = (RelativeLayout) findViewById(R.id.rel1);
-                    mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
-                }
-            }, 250);
         }
     }
 
@@ -338,21 +323,6 @@ public class dod1_g3 extends AppCompatActivity {
             Intent questionIntent = new Intent(dod1_g3.this, ErrorActivity.class);
             startActivityForResult(questionIntent, 1);
             overridePendingTransition(R.anim.right_in, R.anim.left_out);
-        } else {
-
-            // підсвітка:
-            RelativeLayout mRelativeLayout;
-            mRelativeLayout = (RelativeLayout) findViewById(R.id.rel2);
-            mRelativeLayout.setBackgroundColor(Color.parseColor("#D50000"));
-
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    RelativeLayout mRelativeLayout;
-                    mRelativeLayout = (RelativeLayout) findViewById(R.id.rel2);
-                    mRelativeLayout.setBackgroundColor(Color.parseColor("#ffffff"));
-                }
-            }, 250);
         }
     }
 
