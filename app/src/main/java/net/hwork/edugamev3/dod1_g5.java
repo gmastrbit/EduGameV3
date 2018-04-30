@@ -28,9 +28,9 @@ public class dod1_g5 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dod1_g5);
-        // скриває верхній бар:
+        // приховує верхній бар:
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        // скриває тайтлбар:
+        // приховує тайтлбар:
         getSupportActionBar().hide();
         // орієнтація екрана:
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);

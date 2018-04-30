@@ -25,9 +25,9 @@ public class UserActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.user);
-        // скриває верхній бар:
+        // приховує верхній бар:
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        // скриває тайтлбар:
+        // приховує тайтлбар:
         getSupportActionBar().hide();
         // орієнтація екрана:
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);

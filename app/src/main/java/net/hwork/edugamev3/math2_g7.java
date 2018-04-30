@@ -35,9 +35,9 @@ public class math2_g7 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.math2_g7_1);
-        // скриває верхній бар:
+        // приховує верхній бар:
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        // скриває тайтлбар:
+        // приховує тайтлбар:
         getSupportActionBar().hide();
         // орієнтація екрана:
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);

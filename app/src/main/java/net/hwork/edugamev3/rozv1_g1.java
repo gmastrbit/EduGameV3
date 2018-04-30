@@ -35,9 +35,9 @@ public class rozv1_g1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rozv1_g1_1);
-        // скриває верхній бар:
+        // приховує верхній бар:
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        // скриває тайтлбар:
+        // приховує тайтлбар:
         getSupportActionBar().hide();
         // орієнтація екрана:
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
