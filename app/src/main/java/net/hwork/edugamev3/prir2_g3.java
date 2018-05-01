@@ -28,7 +28,7 @@ public class prir2_g3 extends AppCompatActivity {
 
     private SoundPool mSoundPool;
     private AssetManager mAssetManager;
-    private int mSuccessGame, mError, mStreamID, mSuccessVolume;
+    private int mSuccessGame, mError, mStreamID;
     private int error23 = 0;
 
     @Override
@@ -104,7 +104,6 @@ public class prir2_g3 extends AppCompatActivity {
         }
         mAssetManager = getAssets();
         mSuccessGame = loadSound("success_game.ogg");
-        mSuccessVolume = loadSound("success_volume.ogg");
         mError = loadSound("error.ogg");
         error23 = 0;
     }
@@ -175,7 +174,7 @@ public class prir2_g3 extends AppCompatActivity {
 
     public void go_prir2_g3_s(View view){
         // звук:
-        playSound(mSuccessVolume);
+        playSound(mSuccessGame);
 
         // сховати кнопки:
         LinearLayout mLinearLayout;
@@ -195,8 +194,6 @@ public class prir2_g3 extends AppCompatActivity {
                 Typeface typeFace = Typeface.createFromAsset(getAssets(), "comic.ttf");
                 TextView textView4 = (TextView) findViewById(R.id.textView187);
                 textView4.setTypeface(typeFace);
-                TextView textView44 = (TextView) findViewById(R.id.textView188);
-                textView44.setTypeface(typeFace);
             }
         }, 250);
     }
@@ -209,11 +206,10 @@ public class prir2_g3 extends AppCompatActivity {
         finish();
     }
 
-    public void toMap_g36(View view){
-        // перехід на головну з анімацією:
-        Intent questionIntent = new Intent(prir2_g3.this, MapActivity.class);
+    public void go_prir2_g4_1(View view){
+        Intent questionIntent = new Intent(prir2_g3.this, prir2_g4.class);
         startActivityForResult(questionIntent, 1);
-        overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
         finish();
     }
 

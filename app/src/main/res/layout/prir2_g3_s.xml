@@ -16,18 +16,6 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView188"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView187"
-        android:text="Розділ Ознайомлення з природою 2 пройдений!"
-        android:textAlignment="center"
-        android:textColor="#000"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
     <ProgressBar
         android:id="@+id/progressBar148"
         style="?android:attr/progressBarStyleHorizontal"
@@ -35,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:max="90"
+        android:max="120"
         android:progress="90" />
 
     <ImageView
@@ -55,7 +43,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_margin="10dp"
-        android:onClick="toMap_g36"
+        android:onClick="go_prir2_g4_1"
         app:srcCompat="@drawable/play" />
 
     <ImageView
@@ -67,6 +55,6 @@
         android:paddingBottom="100dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:paddingTop="130dp"
+        android:paddingTop="80dp"
         app:srcCompat="@drawable/robo_bosslike" />
 </RelativeLayout>

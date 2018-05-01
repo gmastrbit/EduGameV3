@@ -70,7 +70,7 @@
             android:onClick="go_rozv1_g2_s"
             android:text="Будують будинок"
             android:textAllCaps="false"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/button95"
@@ -82,6 +82,6 @@
             android:onClick="no_rozv1_g2"
             android:text="Водять машину"
             android:textAllCaps="false"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 </RelativeLayout>

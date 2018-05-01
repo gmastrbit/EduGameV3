@@ -59,28 +59,30 @@
         android:padding="5dp">
 
         <Button
-            android:id="@+id/button111"
-            android:layout_width="500dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:background="@drawable/teal_game"
-            android:onClick="no_math2_g3"
-            android:text="Знизу"
-            android:textAllCaps="false"
-            android:textSize="24sp" />
-
-        <Button
             android:id="@+id/button110"
             android:layout_width="500dp"
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:background="@drawable/teal_game"
+            android:background="@drawable/blue_game"
             android:onClick="go_math2_g3_s"
             android:text="Зверху"
             android:textAllCaps="false"
+            android:textColor="#ff0000"
             android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button111"
+            android:layout_width="500dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_game"
+            android:onClick="no_math2_g3"
+            android:text="Знизу"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+
     </LinearLayout>
 
 </RelativeLayout>

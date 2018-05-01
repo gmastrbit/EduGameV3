@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class UserActivity extends AppCompatActivity {
 
@@ -84,26 +85,34 @@ public class UserActivity extends AppCompatActivity {
         EditText userNameLogin = (EditText) findViewById(R.id.editText);
         userNameLogin.clearFocus();
         String userName = userNameLogin.getText().toString();
-        SharedPreferences.Editor e = sp.edit();
-        e.putString("userName", userName);
-        e.commit();
+
 
         if (userName.isEmpty()){
-            mSnackbar = Snackbar.make(view, "Ім'я видалено!", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null);
-            View snackbarView = mSnackbar.getView();
-            snackbarView.setBackgroundColor(Color.parseColor("#212121"));
-            TextView snackTextView = (TextView) snackbarView.findViewById(android.support.design.R.id.snackbar_text);
-            snackTextView.setTextColor(Color.parseColor("#FFD600")); //  #FFEA00
-            mSnackbar.show();
+            // збереження імені, якщо всі критерії дотримані
+            SharedPreferences.Editor e = sp.edit();
+            e.putString("userName", userName);
+            e.commit();
+
+            Toast toast = Toast.makeText(UserActivity.this, "Ім'я видалено! ", Toast.LENGTH_SHORT);
+            toast.show();
         } else {
-            mSnackbar = Snackbar.make(view, "Ім'я '"+ userName +"' збережено!", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null);
-            View snackbarView = mSnackbar.getView();
-            snackbarView.setBackgroundColor(Color.parseColor("#212121"));
-            TextView snackTextView = (TextView) snackbarView.findViewById(android.support.design.R.id.snackbar_text);
-            snackTextView.setTextColor(Color.parseColor("#FFD600")); //  #FFEA00
-            mSnackbar.show();
+            if (userName.length() >= 15 ){
+                Toast toast = Toast.makeText(UserActivity.this, "Введіть коротше ім'я ", Toast.LENGTH_SHORT);
+                toast.show();
+            } else {
+                // збереження імені, якщо всі критерії дотримані
+                SharedPreferences.Editor e = sp.edit();
+                e.putString("userName", userName);
+                e.commit();
+
+                Toast toast = Toast.makeText(UserActivity.this, "Ім'я " + userName + " збережено!", Toast.LENGTH_SHORT);
+                toast.show();
+            }
         }
+
+        // перехід на головну з анімацією
+        Intent questionIntent = new Intent(UserActivity.this, MainActivity.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 }

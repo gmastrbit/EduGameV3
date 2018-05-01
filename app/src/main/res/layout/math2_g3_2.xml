@@ -64,7 +64,7 @@
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:background="@drawable/teal_game"
+            android:background="@drawable/blue_game"
             android:onClick="no_math2_g3"
             android:text="Зверху"
             android:textAllCaps="false"
@@ -76,10 +76,11 @@
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:background="@drawable/teal_game"
+            android:background="@drawable/blue_game"
             android:onClick="go_math2_g3_3"
             android:text="Знизу"
             android:textAllCaps="false"
+            android:textColor="#04a327"
             android:textSize="24sp" />
     </LinearLayout>
 </RelativeLayout>

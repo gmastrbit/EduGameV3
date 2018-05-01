@@ -26,7 +26,8 @@ public class ListActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         // орієнтація екрана:
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        // шрифт:
+
+        // шрифт для підписів:
         Typeface typeFace = Typeface.createFromAsset(getAssets(), "comic.ttf");
         TextView textView = (TextView) findViewById(R.id.textView3);
         textView.setTypeface(typeFace);
@@ -53,6 +54,7 @@ public class ListActivity extends AppCompatActivity {
         TextView textView19 = (TextView) findViewById(R.id.textView23);
         textView19.setTypeface(typeFace);
 
+        // шрифт для кнопок:
         Button button = (Button) findViewById(R.id.button);
         button.setTypeface(typeFace);
         Button button2 = (Button) findViewById(R.id.button2);
@@ -141,6 +143,8 @@ public class ListActivity extends AppCompatActivity {
         button44.setTypeface(typeFace);
         Button button45 = (Button) findViewById(R.id.button180);
         button45.setTypeface(typeFace);
+        Button button46 = (Button) findViewById(R.id.button183);
+        button46.setTypeface(typeFace);
     }
 
     public void showSnackList(View view) {
@@ -363,27 +367,6 @@ public class ListActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
-    public void go_rozv2_g1_list(View view){
-        // перехід на 37 гру з анімацією:
-        Intent questionIntent = new Intent(ListActivity.this, rozv2_g1.class);
-        startActivityForResult(questionIntent, 1);
-        overridePendingTransition(R.anim.right_in, R.anim.left_out);
-    }
-
-    public void go_rozv2_g2_list(View view){
-        // перехід на 38 гру з анімацією:
-        Intent questionIntent = new Intent(ListActivity.this, rozv2_g2.class);
-        startActivityForResult(questionIntent, 1);
-        overridePendingTransition(R.anim.right_in, R.anim.left_out);
-    }
-
-    public void go_rozv2_g3_list(View view){
-        // перехід на 39 гру з анімацією:
-        Intent questionIntent = new Intent(ListActivity.this, rozv2_g3.class);
-        startActivityForResult(questionIntent, 1);
-        overridePendingTransition(R.anim.right_in, R.anim.left_out);
-    }
-
     public void go_navk2_g1_list(View view){
         // перехід на 31 гру з анімацією:
         Intent questionIntent = new Intent(ListActivity.this, navk2_g1.class);
@@ -426,36 +409,64 @@ public class ListActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
-    public void go_dod1_g1_list(View view){
+    public void go_prir2_g4_list(View view){
+        // перехід на 37 гру з анімацією:
+        Intent questionIntent = new Intent(ListActivity.this, prir2_g4.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
+    }
+
+    public void go_rozv2_g1_list(View view){
+        // перехід на 38 гру з анімацією:
+        Intent questionIntent = new Intent(ListActivity.this, rozv2_g1.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
+    }
+
+    public void go_rozv2_g2_list(View view){
+        // перехід на 39 гру з анімацією:
+        Intent questionIntent = new Intent(ListActivity.this, rozv2_g2.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
+    }
+
+    public void go_rozv2_g3_list(View view){
         // перехід на 40 гру з анімацією:
+        Intent questionIntent = new Intent(ListActivity.this, rozv2_g3.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
+    }
+
+    public void go_dod1_g1_list(View view){
+        // перехід на 41 гру з анімацією:
         Intent questionIntent = new Intent(ListActivity.this, dod1_g1.class);
         startActivityForResult(questionIntent, 1);
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
     public void go_dod1_g2_list(View view){
-        // перехід на 41 гру з анімацією:
+        // перехід на 42 гру з анімацією:
         Intent questionIntent = new Intent(ListActivity.this, dod1_g2.class);
         startActivityForResult(questionIntent, 1);
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
     public void go_dod1_g3_list(View view){
-        // перехід на 42 гру з анімацією:
+        // перехід на 43 гру з анімацією:
         Intent questionIntent = new Intent(ListActivity.this, dod1_g3.class);
         startActivityForResult(questionIntent, 1);
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
     public void go_dod1_g4_list(View view){
-        // перехід на 43 гру з анімацією:
+        // перехід на 44 гру з анімацією:
         Intent questionIntent = new Intent(ListActivity.this, dod1_g4.class);
         startActivityForResult(questionIntent, 1);
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
     public void go_dod1_g5_list(View view){
-        // перехід на 44 гру з анімацією:
+        // перехід на 45 гру з анімацією:
         Intent questionIntent = new Intent(ListActivity.this, dod1_g5.class);
         startActivityForResult(questionIntent, 1);
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
