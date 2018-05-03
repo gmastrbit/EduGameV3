@@ -23,7 +23,7 @@ public class dod1_g2 extends AppCompatActivity {
 
     private SoundPool mSoundPool;
     private AssetManager mAssetManager;
-    private int mStreamID, mOne, mTwo, mThree, mFour, mFive, mSix, mSeven, mEight, mNine, mNull;
+    private int mStreamID, mNull;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -115,15 +115,6 @@ public class dod1_g2 extends AppCompatActivity {
             createNewSoundPool();
         }
         mAssetManager = getAssets();
-        mOne = loadSound("one.mp3");
-        mTwo = loadSound("two.mp3");
-        mThree = loadSound("three.mp3");
-        mFour = loadSound("four.mp3");
-        mFive = loadSound("five.mp3");
-        mSix = loadSound("six.mp3");
-        mSeven = loadSound("seven.mp3");
-        mEight = loadSound("eight.mp3");
-        mNine = loadSound("nine.mp3");
         mNull = loadSound("null.mp3");
     }
     @Override
@@ -134,49 +125,67 @@ public class dod1_g2 extends AppCompatActivity {
     }
     // звуки;
 
-    public void dod1_g2_playOne(View view){
-        // звук:
-        playSound(mOne);
+    public void dod1_g2_goOne(View view){
+        // перехід на цифру 1
+        Intent questionIntent = new Intent(dod1_g2.this, dod1_g2_1.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
-    public void dod1_g2_playTwo(View view){
-        // звук:
-        playSound(mTwo);
+    public void dod1_g2_goTwo(View view){
+        // перехід на цифру 2
+        Intent questionIntent = new Intent(dod1_g2.this, dod1_g2_2.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
-    public void dod1_g2_playThree(View view){
-        // звук:
-        playSound(mThree);
+    public void dod1_g2_goThree(View view){
+        // перехід на цифру 3
+        Intent questionIntent = new Intent(dod1_g2.this, dod1_g2_3.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
-    public void dod1_g2_playFour(View view){
-        // звук:
-        playSound(mFour);
+    public void dod1_g2_goFour(View view){
+        // перехід на цифру 4
+        Intent questionIntent = new Intent(dod1_g2.this, dod1_g2_4.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
-    public void dod1_g2_playFive(View view){
-        // звук:
-        playSound(mFive);
+    public void dod1_g2_goFive(View view){
+        // перехід на цифру 1
+        Intent questionIntent = new Intent(dod1_g2.this, dod1_g2_5.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
-    public void dod1_g2_playSix(View view){
-        // звук:
-        playSound(mSix);
+    public void dod1_g2_goSix(View view){
+        // перехід на цифру 1
+        Intent questionIntent = new Intent(dod1_g2.this, dod1_g2_6.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
-    public void dod1_g2_playSeven(View view){
-        // звук:
-        playSound(mSeven);
+    public void dod1_g2_goSeven(View view){
+        // перехід на цифру 1
+        Intent questionIntent = new Intent(dod1_g2.this, dod1_g2_7.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
-    public void dod1_g2_playEight(View view){
-        // звук:
-        playSound(mEight);
+    public void dod1_g2_goEight(View view){
+        // перехід на цифру 1
+        Intent questionIntent = new Intent(dod1_g2.this, dod1_g2_8.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
-    public void dod1_g2_playNine(View view){
-        // звук:
-        playSound(mNine);
+    public void dod1_g2_goNine(View view){
+        // перехід на цифру 1
+        Intent questionIntent = new Intent(dod1_g2.this, dod1_g2_9.class);
+        startActivityForResult(questionIntent, 1);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
     public void dod1_g2_playNull(View view){
@@ -189,6 +198,7 @@ public class dod1_g2 extends AppCompatActivity {
         Intent questionIntent = new Intent(dod1_g2.this, MainActivity.class);
         startActivityForResult(questionIntent, 1);
         overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
+        finish();
     }
 
     public void to_dod1_g3(View view){

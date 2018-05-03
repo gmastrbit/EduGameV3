@@ -48,8 +48,8 @@
 
     <ImageView
         android:id="@+id/imageView420"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
         android:layout_below="@+id/textView56"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
@@ -61,10 +61,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:paddingBottom="80dp"
+        android:paddingBottom="70dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:paddingTop="120dp"
+        android:paddingTop="130dp"
         app:srcCompat="@drawable/robo_wow_two" />
 
 </RelativeLayout>

@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 textView2.setText("");
             }
 
+            // знаходимо елементи для встановлення слухачів натискання
             ImageView go_list = (ImageView) findViewById(R.id.imageView17);
             ImageView go_map = (ImageView) findViewById(R.id.imageView);
             ImageView go_help = (ImageView) findViewById(R.id.imageView2);
@@ -86,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent questionIntent = new Intent(MainActivity.this, ListActivity.class);
                     startActivityForResult(questionIntent, 1);
                     overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
+                    //finish();
                 }
             });
 
@@ -109,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent questionIntent = new Intent(MainActivity.this, MapActivity.class);
                     startActivityForResult(questionIntent, 1);
                     overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
+                    //finish();
                 }
             });
 
@@ -132,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent questionIntent = new Intent(MainActivity.this, HelpActivity.class);
                     startActivityForResult(questionIntent, 1);
                     overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
+                    //finish();
                 }
             });
 

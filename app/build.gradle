@@ -14,7 +14,7 @@ android {
         applicationId "net.hwork.edugamev3"
         minSdkVersion 21
         targetSdkVersion 26
-        versionCode 2
+        versionCode 3
         versionName "3.0.44.51.165"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

@@ -130,6 +130,7 @@ public class dod1_g4 extends AppCompatActivity {
         Intent questionIntent = new Intent(dod1_g4.this, MainActivity.class);
         startActivityForResult(questionIntent, 1);
         overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
+        finish();
     }
 
     public void to_dod1_g5(View view){

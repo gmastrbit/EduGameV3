@@ -68,7 +68,16 @@
         <activity android:name=".dod1_g4" />
         <activity android:name=".dod1_g5" />
         <activity android:name=".UserActivity" />
-        <activity android:name=".prir2_g4"></activity>
+        <activity android:name=".prir2_g4" />
+        <activity android:name=".dod1_g2_1" />
+        <activity android:name=".dod1_g2_2" />
+        <activity android:name=".dod1_g2_3" />
+        <activity android:name=".dod1_g2_4" />
+        <activity android:name=".dod1_g2_5" />
+        <activity android:name=".dod1_g2_6" />
+        <activity android:name=".dod1_g2_7" />
+        <activity android:name=".dod1_g2_8" />
+        <activity android:name=".dod1_g2_9"></activity>
     </application>
 
 </manifest>
