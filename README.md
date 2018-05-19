@@ -6,4 +6,4 @@
 
 Розвиваюча гра для дітей від **1 до 4** років.
 
-Остання версія версія apk-файлу: https://github.com/gmastrbit/EduGameV3/releases
+Остання версія версія apk-файлу: [посилання](https://play.google.com/store/apps/details?id=net.hwork.edugamev3).
